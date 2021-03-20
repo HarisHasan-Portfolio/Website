@@ -11,7 +11,7 @@ body
 
 #start
 {
-	background: url(Sky.jpg);
+	background: url('Sky.jpg');
 	background-size: 100% auto;
 	background-attachment: fixed;
 	height: 750px;
