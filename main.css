@@ -1,0 +1,179 @@
+*
+{
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+}
+
+#start
+{
+	background: url(Sky.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	height: 750px;
+	color: white;
+	padding-top: 25px;
+	padding-right: 15vw;
+	padding-left: 15vw;
+}	
+
+#sanitizer
+{
+	margin-top: 30px;
+}
+
+#menu li
+{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 18px;
+	font-family: Helvetica;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+}
+
+#menu a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#text-large
+{
+	font-family: Helvetica;
+	font-weight: bold;
+}
+#text-large h1
+{
+	font-size: 110px;
+	margin-top: 300px;
+	margin-bottom: 0px;
+}
+#text-large h2
+{
+	color: rgb(0, 0, 0);
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+#pumpkin button
+{
+	background-color: #54B847;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 15px 25px;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 20px;
+}
+#pumpkin button:hover
+{
+	background-color: #377a2e;
+	cursor: pointer;
+}
+
+#charger
+{
+	margin: 5vw 15vw;
+	font-family: Helvetica;
+}
+#charger h1
+{
+	font-size: 50px;
+	color: #1e3e73;
+}
+#charger p
+{
+	font-size: 18px;
+	color: #1e3e73;
+	width: 25%;
+	line-height: 30px;
+}
+
+#cream
+{
+	background: linear-gradient(rgba(0, 50, 255, 0.25),rgba(0, 50, 255, 0.25)), url('Industry.jpg');
+	background-size: 100% auto;
+	background-attachment: fixed;
+	height: 1000px;
+}
+#chupkali
+{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+.mouse
+{
+	text-align: center;
+	float: left;
+	margin: 5vw 5px;
+}
+.mouse img
+{
+	width: 80px;
+}
+.mouse h1
+{
+	color: white;
+	font-family: Helvetica;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+#lungs
+{
+	color: white;
+	font-family: Helvetica;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+#legs
+{
+	width: 60%;
+	float: left;
+}
+#legs h1
+{
+	font-size: 25px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+#legs p
+{
+	font-size: 18px;
+	line-height: 35px;
+	width: 70%;
+}
+#feet
+{
+	width: 40%;
+	float: left;
+}
+#feet h1
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+#feet ul
+{
+	width: 65%;
+	font-size: 15px;
+}
+#feet li
+{
+	line-height: 25px;
+}
