@@ -83,20 +83,10 @@ body
 
 #charger
 {
-	margin: 5vw 15vw;
+	margin-left: 15vw;
+	margin-right: 15vw;
 	font-family: Helvetica;
-}
-#charger h1
-{
-	font-size: 50px;
 	color: #1e3e73;
-}
-#charger p
-{
-	font-size: 18px;
-	color: #1e3e73;
-	width: 25%;
-	line-height: 30px;
 }
 
 #cream
@@ -104,7 +94,8 @@ body
 	background: linear-gradient(rgba(0, 50, 255, 0.25),rgba(0, 50, 255, 0.25)), url('Industry.jpg');
 	background-size: 100% auto;
 	background-attachment: fixed;
-	height: 1000px;
+	height: 1050px;
+	clear: both;
 }
 #chupkali
 {
@@ -133,6 +124,14 @@ body
 	margin-bottom: 0px;
 }
 
+#divider
+{
+	width: 70%;
+	color: white;
+	height: 1px;
+	opacity: 75%;
+}
+
 #lungs
 {
 	color: white;
@@ -140,50 +139,85 @@ body
 	margin-left: 15vw;
 	margin-right: 15vw;
 }
-#legs
+
+.legs
 {
 	width: 60%;
 	float: left;
+	margin-bottom: 60px;
 }
-#legs h1
+.legs h1
 {
-	font-size: 25px;
+	font-size: 50px;
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
-#legs p
+.legs p
 {
 	font-size: 18px;
 	line-height: 35px;
 	width: 70%;
 }
-#feet
+
+.feet
 {
 	width: 40%;
 	float: left;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
-#feet h1
+.feet h1
 {
 	font-size: 20px;
 	font-weight: bold;
-	margin-top: 60px;
 	margin-left: 20px;
 }
-#feet ul
+.feet ul
 {
 	width: 65%;
 	font-size: 15px;
 }
-#feet li
+.feet li
 {
 	line-height: 25px;
 }
 
-/*Out of place*/
-#divider
+#nail
 {
-	width: 70%;
+	clear: both;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Dark Blue Abstract.jpg');
+	height: 650px;
+	text-align: center;
+}
+#nail img
+{
+	width: 350px;
+	margin-top: 100px;
+}
+#nail p
+{
+	font-size: 25px;
+	font-family: Cambria;
 	color: white;
-	height: 1px;
-	opacity: 75%;
+	text-transform: uppercase;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	line-height: 40px;
+}
+
+#elephant
+{
+	color: #1e3e73;
+	font-family: Helvetica;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+
+.full-width-image
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 }
