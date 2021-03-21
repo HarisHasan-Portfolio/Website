@@ -166,6 +166,7 @@ body
 {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 60px;
 	margin-left: 20px;
 }
 #feet ul
@@ -176,4 +177,13 @@ body
 #feet li
 {
 	line-height: 25px;
+}
+
+/*Out of place*/
+#divider
+{
+	width: 70%;
+	color: white;
+	height: 1px;
+	opacity: 75%;
 }
