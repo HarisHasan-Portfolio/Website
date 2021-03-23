@@ -25,6 +25,15 @@ body
 {
 	margin-top: 30px;
 }
+#sanitizer img
+{
+	width: 100px;
+	transition: 0.5s;
+}
+#sanitizer img:hover
+{
+	width: 150px;
+}
 
 #menu li
 {
@@ -34,13 +43,18 @@ body
 	font-family: Helvetica;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 25px;
+	margin-top: 25px;
 }
 
 #menu a
 {
 	color: white;
 	text-decoration: none;
+	transition: 0.5s;
+}
+#menu a:hover
+{
+	color: #ffb300;
 }
 
 #text-large
@@ -50,14 +64,14 @@ body
 }
 #text-large h1
 {
-	font-size: 110px;
+	font-size: 5.75vw;
 	margin-top: 300px;
 	margin-bottom: 0px;
 }
 #text-large h2
 {
 	color: rgb(0, 0, 0);
-	font-size: 50px;
+	font-size: 2.6vw;
 	margin-top: 0px;
 	margin-bottom: 50px;
 }
@@ -74,6 +88,10 @@ body
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 225px;
+	transition: 0.5s;
 }
 #pumpkin button:hover
 {
