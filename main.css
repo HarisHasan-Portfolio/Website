@@ -202,10 +202,10 @@ body
 
 #nail
 {
-	clear: both;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Dark Blue Abstract.jpg');
 	height: 650px;
 	text-align: center;
+	clear: both;
 }
 #nail img
 {
@@ -233,9 +233,25 @@ body
 	margin-right: 15vw;
 }
 
-.full-width-image
+#speaker
 {
-	width: 100%;
+	width: 60%;
 	margin: 0 auto;
-	text-align: center;
+}
+#speaker img
+{
+	border-radius: 10px;
+}
+
+.soda
+{
+	width: 25%;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.soda h1
+{
+	color: #00ffff;
+	margin-bottom: 50px;
 }
